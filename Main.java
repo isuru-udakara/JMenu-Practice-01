@@ -7,6 +7,10 @@ import java.awt.Color;
 public class Main{
     JFrame window;
 
+    public Main(){
+        
+    }
+
     public static void main(String args[]){
         new Main();
     }
