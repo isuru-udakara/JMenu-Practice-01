@@ -42,6 +42,9 @@ public class Main{
         mEdit= new JMenu();
         mEdit.setText("Edit");
         menuBar.add(mEdit);
+
+        mView= new JMenu("View");
+        menuBar.add(mView);
     }
 
     public static void main(String args[]){
