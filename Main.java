@@ -8,10 +8,11 @@ import java.awt.Color;
 public class Main{
     JFrame window;
     JMenuBar menuBar;
-
+    JMenu mFile, mEdit, mView, mHelp;
     public Main(){
         CreateWindow();
         CreateMenuBar();
+        CreateMenu();
 
         // make visible all components 
         window.setVisible(true);
@@ -32,6 +33,11 @@ public class Main{
     private void CreateMenuBar(){
         menuBar= new JMenuBar();
         window.setJMenuBar(menuBar);
+    }
+
+    private void CreateMenu(){
+        mFile= new JMenu("File");
+        menuBar.add(mFile);
     }
 
     public static void main(String args[]){
