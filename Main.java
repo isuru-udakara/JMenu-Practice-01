@@ -38,6 +38,10 @@ public class Main{
     private void CreateMenu(){
         mFile= new JMenu("File");
         menuBar.add(mFile);
+
+        mEdit= new JMenu();
+        mEdit.setText("Edit");
+        menuBar.add(mEdit);
     }
 
     public static void main(String args[]){
