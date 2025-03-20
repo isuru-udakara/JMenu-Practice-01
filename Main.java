@@ -65,6 +65,9 @@ public class Main{
 
         iOpenFolder= new JMenuItem("Open Folder");
         mFile.add(iOpenFolder);
+
+        iSave= new JMenuItem("Save");
+        mFile.add(iSave);
     }
 
     public static void main(String args[]){
