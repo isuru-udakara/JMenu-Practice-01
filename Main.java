@@ -11,6 +11,7 @@ public class Main{
 
     public Main(){
         CreateWindow();
+        CreateMenuBar();
 
         // make visible all components 
         window.setVisible(true);
@@ -26,6 +27,11 @@ public class Main{
         window.getContentPane().setBackground(new Color(100, 200, 150));
         ImageIcon icon= new ImageIcon("icon.png");
         window.setIconImage(icon.getImage());
+    }
+
+    private void CreateMenuBar(){
+        menuBar= new JMenuBar();
+        window.setJMenuBar(menuBar);
     }
 
     public static void main(String args[]){
