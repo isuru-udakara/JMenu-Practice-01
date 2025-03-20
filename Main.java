@@ -9,10 +9,13 @@ public class Main{
     JFrame window;
     JMenuBar menuBar;
     JMenu mFile, mEdit, mView, mHelp;
+    // items for file menu
+    JMenuItem iNewFile, iNewFolder, iOpenFile, iOpenFolder, iSave, iSaveAs, iExit;
     public Main(){
         CreateWindow();
         CreateMenuBar();
         CreateMenu();
+        CreateFileMenu();
 
         // make visible all components 
         window.setVisible(true);
@@ -48,6 +51,11 @@ public class Main{
 
         mHelp= new JMenu("Help");
         menuBar.add(mHelp);
+    }
+
+    private void CreateFileMenu(){
+        iNewFile= new JMenuItem("New File");
+        mFile.add(iNewFile);
     }
 
     public static void main(String args[]){
