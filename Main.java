@@ -10,7 +10,7 @@ public class Main{
     JMenuBar menuBar;
     JMenu mFile, mEdit, mView, mHelp;
     // items for file menu
-    JMenuItem iNewFile, iNewFolder, iOpenFile, iOpenFolder, iSave, iSaveAs, iExit;
+    JMenuItem iNewFile, iNewFolder, iNewWindow, iOpenFile, iOpenFolder, iSave, iSaveAs, iExit;
     public Main(){
         CreateWindow();
         CreateMenuBar();
@@ -59,6 +59,9 @@ public class Main{
 
         iNewFolder= new JMenuItem("New Folder");
         mFile.add(iNewFolder);
+
+        iNewWindow= new JMenuItem("New Window");
+        mFile.add(iNewWindow);
 
         iOpenFile= new JMenuItem("Open File");
         mFile.add(iOpenFile);
