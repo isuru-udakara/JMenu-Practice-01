@@ -71,6 +71,9 @@ public class Main{
 
         iSaveAs= new JMenuItem("Save As");
         mFile.add(iSaveAs);
+
+        iExit= new JMenuItem("Exit");
+        mFile.add(iExit);
     }
 
     public static void main(String args[]){
