@@ -68,6 +68,9 @@ public class Main{
 
         iSave= new JMenuItem("Save");
         mFile.add(iSave);
+
+        iSaveAs= new JMenuItem("Save As");
+        mFile.add(iSaveAs);
     }
 
     public static void main(String args[]){
