@@ -59,6 +59,9 @@ public class Main{
 
         iNewFolder= new JMenuItem("New Folder");
         mFile.add(iNewFolder);
+
+        iOpenFile= new JMenuItem("Open File");
+        mFile.add(iOpenFile);
     }
 
     public static void main(String args[]){
