@@ -45,6 +45,9 @@ public class Main{
 
         mView= new JMenu("View");
         menuBar.add(mView);
+
+        mHelp= new JMenu("Help");
+        menuBar.add(mHelp);
     }
 
     public static void main(String args[]){
