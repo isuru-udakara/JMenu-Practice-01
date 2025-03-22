@@ -116,6 +116,9 @@ public class Main{
 
         iFullScreen= new JMenuItem("Full Screen");
         mAppearance.add(iFullScreen);
+
+        iMaximize= new JMenuItem("Maximize");
+        mAppearance.add(iMaximize);
     }
     public static void main(String args[]){
         new Main();
