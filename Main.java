@@ -9,16 +9,19 @@ public class Main{
     JFrame window;
     JMenuBar menuBar;
     JMenu mFile, mEdit, mView, mHelp;
-    JMenu mNew;
+    // nested menu
+    JMenu mNew, mAppearance, mPanelPosition, mAlignPanel;
     // items for file menu
     JMenuItem iNewFile, iNewFolder, iNewWindow, iOpenFile, iOpenFolder, iSave, iSaveAs, iExit;
     JMenuItem iUndo, iRedo, iCut, iCopy, iPaste, iFind, iReplace;
+    JMenuItem iFullScreen, iMaximize, iMinimize, iTop, iLeft, iRight, iCenter, iJustify, iLeftP, iRightP;
     public Main(){
         CreateWindow();
         CreateMenuBar();
         CreateMenu();
         CreateFileMenu();
         CreateEditMenu();
+        CreateViewMenu();
         // make visible all components 
         window.setVisible(true);
     }
@@ -105,6 +108,10 @@ public class Main{
 
         iReplace= new JMenuItem("Replace");
         mEdit.add(iReplace);
+    }
+   
+    private void CreateViewMenu(){
+        
     }
     public static void main(String args[]){
         new Main();
