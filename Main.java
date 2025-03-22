@@ -99,6 +99,9 @@ public class Main{
 
         iPaste= new JMenuItem("Paste");
         mEdit.add(iPaste);
+
+        iFind= new JMenuItem("Find");
+        mEdit.add(iFind);
     }
     public static void main(String args[]){
         new Main();
