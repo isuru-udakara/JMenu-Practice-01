@@ -6,3 +6,6 @@
 
 # Ignore .txt files
 *.txt
+
+# ignore read me file 
+README.md
