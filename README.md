@@ -10,4 +10,4 @@
 ![created file menu](https://github.com/user-attachments/assets/370c2f58-7b49-4525-953d-aecf41d0d243)
 
 ### Updated File menu, added new items inside New menu in File menu
-![created file menu](https://github.com/user-attachments/assets/1d9a29cd-e286-4f89-b1ca-1be14c7b1b49)
+![Screenshot 2025-03-22 234236](https://github.com/user-attachments/assets/27b1eb19-8ebf-4a39-af14-b4a7d3afae4e)
