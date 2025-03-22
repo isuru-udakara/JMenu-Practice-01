@@ -93,6 +93,9 @@ public class Main{
 
         iCut= new JMenuItem("Cut");
         mEdit.add(iCut);
+
+        iCopy= new JMenuItem("Copy");
+        mEdit.add(iCopy);
     }
     public static void main(String args[]){
         new Main();
