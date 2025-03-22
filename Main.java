@@ -122,6 +122,9 @@ public class Main{
 
         iMinimize= new JMenuItem("Minimize");
         mAppearance.add(iMinimize);
+
+        mPanelPosition= new JMenu("Panel Position");
+        mView.add(mPanelPosition);
     }
     public static void main(String args[]){
         new Main();
