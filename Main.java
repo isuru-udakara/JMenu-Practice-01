@@ -102,6 +102,9 @@ public class Main{
 
         iFind= new JMenuItem("Find");
         mEdit.add(iFind);
+
+        iReplace= new JMenuItem("Replace");
+        mEdit.add(iReplace);
     }
     public static void main(String args[]){
         new Main();
