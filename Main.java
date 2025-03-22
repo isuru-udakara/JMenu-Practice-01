@@ -119,6 +119,9 @@ public class Main{
 
         iMaximize= new JMenuItem("Maximize");
         mAppearance.add(iMaximize);
+
+        iMinimize= new JMenuItem("Minimize");
+        mAppearance.add(iMinimize);
     }
     public static void main(String args[]){
         new Main();
