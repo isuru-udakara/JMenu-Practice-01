@@ -18,6 +18,7 @@ public class Main{
         CreateMenuBar();
         CreateMenu();
         CreateFileMenu();
+        CreateEditMenu();
         // make visible all components 
         window.setVisible(true);
     }
@@ -83,6 +84,10 @@ public class Main{
         mFile.add(iExit);
     }
 
+    private void CreateEditMenu(){
+        iUndo= new JMenuItem("Undo");
+        mEdit.add(iUndo);
+    }
     public static void main(String args[]){
         new Main();
     }
