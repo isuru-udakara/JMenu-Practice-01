@@ -11,3 +11,6 @@
 
 ### Updated File menu, added new items inside New menu in File menu
 ![Screenshot 2025-03-22 234236](https://github.com/user-attachments/assets/27b1eb19-8ebf-4a39-af14-b4a7d3afae4e)
+
+### Added menu tiems to Edit menu 
+![Screenshot 2025-03-23 000443](https://github.com/user-attachments/assets/e39aad9c-b701-4011-8f4e-eaadc65178ad)
