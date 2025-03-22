@@ -111,7 +111,11 @@ public class Main{
     }
    
     private void CreateViewMenu(){
-        
+        mAppearance= new JMenu("Appearance");
+        mView.add(mAppearance);
+
+        iFullScreen= new JMenuItem("Full Screen");
+        mAppearance.add(iFullScreen);
     }
     public static void main(String args[]){
         new Main();
