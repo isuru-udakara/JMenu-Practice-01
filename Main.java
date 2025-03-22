@@ -9,6 +9,7 @@ public class Main{
     JFrame window;
     JMenuBar menuBar;
     JMenu mFile, mEdit, mView, mHelp;
+    JMenu mNew;
     // items for file menu
     JMenuItem iNewFile, iNewFolder, iNewWindow, iOpenFile, iOpenFolder, iSave, iSaveAs, iExit;
     public Main(){
@@ -16,7 +17,6 @@ public class Main{
         CreateMenuBar();
         CreateMenu();
         CreateFileMenu();
-
         // make visible all components 
         window.setVisible(true);
     }
@@ -42,6 +42,9 @@ public class Main{
         mFile= new JMenu("File");
         menuBar.add(mFile);
 
+        mNew= new JMenu("New");
+        mFile.add(mNew);
+
         mEdit= new JMenu();
         mEdit.setText("Edit");
         menuBar.add(mEdit);
@@ -55,13 +58,13 @@ public class Main{
 
     private void CreateFileMenu(){
         iNewFile= new JMenuItem("New File");
-        mFile.add(iNewFile);
+        mNew.add(iNewFile);
 
         iNewFolder= new JMenuItem("New Folder");
-        mFile.add(iNewFolder);
+        mNew.add(iNewFolder);
 
         iNewWindow= new JMenuItem("New Window");
-        mFile.add(iNewWindow);
+        mNew.add(iNewWindow);
 
         iOpenFile= new JMenuItem("Open File");
         mFile.add(iOpenFile);
