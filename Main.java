@@ -12,6 +12,7 @@ public class Main{
     JMenu mNew;
     // items for file menu
     JMenuItem iNewFile, iNewFolder, iNewWindow, iOpenFile, iOpenFolder, iSave, iSaveAs, iExit;
+    JMenuItem iUndo, iRedo, iCut, iCopy, iPaste, iFind, iReplace;
     public Main(){
         CreateWindow();
         CreateMenuBar();
