@@ -90,6 +90,9 @@ public class Main{
 
         iRedo= new JMenuItem("Redo");
         mEdit.add(iRedo);
+
+        iCut= new JMenuItem("Cut");
+        mEdit.add(iCut);
     }
     public static void main(String args[]){
         new Main();
