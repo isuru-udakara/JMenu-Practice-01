@@ -87,6 +87,9 @@ public class Main{
     private void CreateEditMenu(){
         iUndo= new JMenuItem("Undo");
         mEdit.add(iUndo);
+
+        iRedo= new JMenuItem("Redo");
+        mEdit.add(iRedo);
     }
     public static void main(String args[]){
         new Main();
