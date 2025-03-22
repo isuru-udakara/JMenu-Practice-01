@@ -96,6 +96,9 @@ public class Main{
 
         iCopy= new JMenuItem("Copy");
         mEdit.add(iCopy);
+
+        iPaste= new JMenuItem("Paste");
+        mEdit.add(iPaste);
     }
     public static void main(String args[]){
         new Main();
