@@ -125,6 +125,9 @@ public class Main{
 
         mPanelPosition= new JMenu("Panel Position");
         mView.add(mPanelPosition);
+
+        mPanelPosition= new JMenu();
+        mPanelPosition.add("Panel position");
     }
     public static void main(String args[]){
         new Main();
