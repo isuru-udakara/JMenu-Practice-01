@@ -159,6 +159,9 @@ public class Main{
 
         iViewLicense= new JMenuItem("View License");
         mHelp.add(iViewLicense);
+
+        iReportIssue= new JMenuItem("Report Issue");
+        mHelp.add(iReportIssue);
     }
     public static void main(String args[]){
         new Main();
