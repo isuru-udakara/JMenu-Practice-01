@@ -129,8 +129,8 @@ public class Main{
         iTop= new JMenuItem("Top");
         mPanelPosition.add(iTop);
 
-        // iLeft= new JMenuItem("Left");
-        // mPanelPosition.add(iLeft);
+        iLeft= new JMenuItem("Left");
+        mPanelPosition.add(iLeft);
     }
     public static void main(String args[]){
         new Main();
