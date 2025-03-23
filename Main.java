@@ -128,6 +128,9 @@ public class Main{
 
         mPanelPosition= new JMenu();
         mPanelPosition.add("Panel position");
+
+        iTop= new JMenuItem("Top");
+        mPanelPosition.add(iTop);
     }
     public static void main(String args[]){
         new Main();
