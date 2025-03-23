@@ -137,6 +137,9 @@ public class Main{
 
         mAlignPanel= new JMenu("Align Panel");
         mView.add(mAlignPanel);
+
+        iCenter= new JMenuItem("Center");
+        mAlignPanel.add(iCenter);
     }
     public static void main(String args[]){
         new Main();
