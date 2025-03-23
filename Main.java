@@ -165,6 +165,9 @@ public class Main{
 
         iPrivacyStatement= new JMenuItem("Privacy Statement");
         mHelp.add(iPrivacyStatement);
+
+        iUpdate= new JMenuItem("Update");
+        mHelp.add(iUpdate);
     }
     public static void main(String args[]){
         new Main();
