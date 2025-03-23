@@ -154,7 +154,8 @@ public class Main{
     }
   
     private void CreateHelpMenu(){
-
+        iDocumentation= new JMenuItem("Documentation");
+        mHelp.add(iDocumentation);
     }
     public static void main(String args[]){
         new Main();
