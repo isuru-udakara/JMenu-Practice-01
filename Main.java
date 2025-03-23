@@ -146,6 +146,9 @@ public class Main{
 
         iLeftP= new JMenuItem("Left");
         mAlignPanel.add(iLeftP);
+
+        iRightP= new JMenuItem("Right");
+        mAlignPanel.add(iRightP);
     }
     public static void main(String args[]){
         new Main();
