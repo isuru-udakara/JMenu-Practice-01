@@ -134,6 +134,9 @@ public class Main{
 
         iRight= new JMenuItem("Right");
         mPanelPosition.add(iRight);
+
+        mAlignPanel= new JMenu("Align Panel");
+        mView.add(mAlignPanel);
     }
     public static void main(String args[]){
         new Main();
