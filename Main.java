@@ -168,6 +168,9 @@ public class Main{
 
         iUpdate= new JMenuItem("Update");
         mHelp.add(iUpdate);
+
+        iAbout= new JMenuItem("About");
+        mHelp.add(iAbout);
     }
     public static void main(String args[]){
         new Main();
