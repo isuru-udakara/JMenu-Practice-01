@@ -23,6 +23,7 @@ public class Main{
         CreateFileMenu();
         CreateEditMenu();
         CreateViewMenu();
+        CreateHelpMenu();
         // make visible all components 
         window.setVisible(true);
     }
@@ -150,6 +151,10 @@ public class Main{
 
         iRightP= new JMenuItem("Right");
         mAlignPanel.add(iRightP);
+    }
+  
+    private void CreateHelpMenu(){
+
     }
     public static void main(String args[]){
         new Main();
