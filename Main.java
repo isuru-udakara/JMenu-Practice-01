@@ -162,6 +162,9 @@ public class Main{
 
         iReportIssue= new JMenuItem("Report Issue");
         mHelp.add(iReportIssue);
+
+        iPrivacyStatement= new JMenuItem("Privacy Statement");
+        mHelp.add(iPrivacyStatement);
     }
     public static void main(String args[]){
         new Main();
