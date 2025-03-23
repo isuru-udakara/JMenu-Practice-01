@@ -15,6 +15,7 @@ public class Main{
     JMenuItem iNewFile, iNewFolder, iNewWindow, iOpenFile, iOpenFolder, iSave, iSaveAs, iExit;
     JMenuItem iUndo, iRedo, iCut, iCopy, iPaste, iFind, iReplace;
     JMenuItem iFullScreen, iMaximize, iMinimize, iTop, iLeft, iRight, iCenter, iJustify, iLeftP, iRightP;
+    JMenuItem iDocumentation, iViewLicense, iReportIssue, iPrivacyStatement, iUpdate, iAbout;
     public Main(){
         CreateWindow();
         CreateMenuBar();
