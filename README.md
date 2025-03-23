@@ -14,3 +14,15 @@
 
 ### Added menu tiems to Edit menu 
 ![Screenshot 2025-03-23 000443](https://github.com/user-attachments/assets/e39aad9c-b701-4011-8f4e-eaadc65178ad)
+
+### Added items to Appearance menu in View menu
+![view appearance menu](https://github.com/user-attachments/assets/cf6cb3b5-53ec-45bf-9a95-f12a9a97f74c)
+
+### Added items to Panel Position menu in View menu 
+![view panel position menu](https://github.com/user-attachments/assets/764c19cf-ef58-40be-aff6-197f231435ea)
+
+### Added items to Align Panel menu in View menu 
+![view align panel](https://github.com/user-attachments/assets/05e28f22-1508-497e-a06e-703cec9b724b)
+
+### Added items to Help menu 
+![Help](https://github.com/user-attachments/assets/44cc7d7d-1903-4668-b16c-af5bfdddd48d)
