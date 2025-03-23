@@ -156,6 +156,9 @@ public class Main{
     private void CreateHelpMenu(){
         iDocumentation= new JMenuItem("Documentation");
         mHelp.add(iDocumentation);
+
+        iViewLicense= new JMenuItem("View License");
+        mHelp.add(iViewLicense);
     }
     public static void main(String args[]){
         new Main();
