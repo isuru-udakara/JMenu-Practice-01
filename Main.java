@@ -140,6 +140,9 @@ public class Main{
 
         iCenter= new JMenuItem("Center");
         mAlignPanel.add(iCenter);
+
+        iJustify= new JMenuItem("Justify");
+        mAlignPanel.add(iJustify);
     }
     public static void main(String args[]){
         new Main();
